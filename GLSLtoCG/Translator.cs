@@ -70,6 +70,7 @@ namespace GLSLtoCG
             m_map_replacements["highp"] = "";
             m_map_replacements["mix"] = "lerp";
             m_map_replacements["gl_Position"] = "v_position";
+            m_map_replacements["gl_PointSize"] = "float psize";
 
             m_map_replacements["texture2D"] = "tex2D";
         }
